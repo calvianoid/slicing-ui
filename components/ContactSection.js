@@ -6,10 +6,10 @@ import Button from "./Button";
 
 export default function Contact() {
   return (
-    <section className="container mx-auto rounded-lg" id="contact">
-      <div className="bg-primaryGray-default flex">
-        <div className="w-6/12 border-r border-primaryGray-200">
-          <div className="py-16 px-20">
+    <section className="container mx-auto rounded-lg px-10 2xl=px-0" id="contact">
+      <div className="bg-primaryGray-default flex flex-wrap">
+        <div className="md:w-6/12 w-full md:border-r border-primaryGray-200 border-b">
+          <div className="lg:py-16 lg:px-20 md:p-10 p-10">
             <SectionTitle left>Contact</SectionTitle>
             <SectionParagraph left>Beberapa cara menghubungi saya.</SectionParagraph>
             <ContactItem label="Mail" value="hi@nauv.al" icon="/mail.svg" className="mt-10" />
@@ -17,13 +17,13 @@ export default function Contact() {
             <ContactItem label="Twitter" value="@mhdnauvalazhar" icon="/twitter.svg" className="mt-6" />
           </div>
         </div>
-        <div className="w-6/12">
-          <form className="py-16 px-20">
-            <div className="flex -mx-4">
-              <div className="w-6/12 px-4">
+        <div className="md:w-6/12 w-full">
+          <form className="lg:py-16 lg:px-20 md:p-10 p-10">
+            <div className="flex flex-wrap -mx-4">
+              <div className="lg:w-6/12 w-full px-4">
                 <Field label="Name" name="name" type="text" />
               </div>
-              <div className="w-6/12 px-4">
+              <div className="lg:w-6/12 w-full px-4">
                 <Field label="Email" name="email" type="text" />
               </div>
             </div>
