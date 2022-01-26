@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function Contact() {
   return (
-    <section className="container mx-auto rounded-lg">
+    <section className="container mx-auto rounded-lg" id="contact">
       <div className="bg-primaryGray-default flex">
         <div className="w-6/12 border-r border-primaryGray-200">
           <div className="py-16 px-20">

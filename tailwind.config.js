@@ -35,6 +35,7 @@ module.exports = {
       const utilities = {
         ".bg-hero": {
           "background-image": "url(/hero.png)",
+          "background-size": "100%",
         },
         ".shadow-skill": {
           "box-shadow": "0px 15px 30px rgba(0, 0, 0, 0.1)",

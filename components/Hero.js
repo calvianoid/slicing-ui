@@ -7,9 +7,9 @@ export default function Hero() {
       <div className="container mx-auto">
         <NavBar />
         <div className="text-center mt-20">
-          <h1 className="text-white text-3xl font-semibold font-mono w-8/12 mx-auto leading-relaxed">Saya seorang front-end engineer, back-end engineer, dan juga UI designer</h1>
-          <p className="text-white text-opacity-60 text-lg w-4/12 mx-auto mt-6 leading-relaxed">Sejak 13 tahun saya memulai programming. Sejak 3 tahun memulai UI design.</p>
-          <Button pill variant="solid-yellow" className="mt-14">
+          <h1 className="text-white text-3xl font-semibold font-mono 2xl:w-6/12 w-8/12 mx-auto leading-relaxed">Saya seorang front-end engineer, back-end engineer, dan juga UI designer</h1>
+          <p className="text-white text-opacity-60 text-lg 2xl:w-3/12 w-4/12 mx-auto mt-6 leading-relaxed">Sejak 13 tahun saya memulai programming. Sejak 3 tahun memulai UI design.</p>
+          <Button href="#profile" pill variant="solid-yellow" className="mt-14">
             Pelajari
           </Button>
         </div>

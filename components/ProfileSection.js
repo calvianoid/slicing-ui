@@ -2,8 +2,8 @@ import SectionTitle from "./SectionTitle";
 import SectionParagraph from "./SectionParagraph";
 export default function Profile() {
   return (
-    <section>
-      <div className="container mx-auto py-28">
+    <section className="py-28" id="profile">
+      <div className="container mx-auto">
         <SectionTitle>Profile</SectionTitle>
         <SectionParagraph>Mengenal saya secara singkat.</SectionParagraph>
         <div className="flex items-center mx-auto mt-10 w-9/12">
