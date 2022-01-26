@@ -5,11 +5,12 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamil: {
+      fontFamily: {
         sans: ["Source Sans Pro", "ui-sans-serif", "system-ui"],
         mono: ["IBM Plex Mono", "ui-monospace"],
       },
       colors: {
+        skill: "#F7F7FB",
         yellow: {
           50: "#FFFDEB",
           100: "#FEFAD7",
@@ -30,6 +31,9 @@ module.exports = {
       const utilities = {
         ".bg-hero": {
           "background-image": "url(/hero.png)",
+        },
+        ".shadow-skill": {
+          "box-shadow": "0px 15px 30px rgba(0, 0, 0, 0.1)",
         },
       };
       addUtilities(utilities);
